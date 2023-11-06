@@ -1,3 +1,7 @@
+# load libraries
+library(BiocManager)
+BiocManager::install("GenomicRanges", dependencies = TRUE)
+
 library(GenomicAlignments)
 library(GenomicRanges)
 library(getopt)
