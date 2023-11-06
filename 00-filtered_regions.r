@@ -1,3 +1,7 @@
+# load libraries
+library(BiocManager)
+BiocManager::install("GenomicRanges", dependencies = TRUE)
+
 library(BSgenome.Hsapiens.UCSC.hg19)
 library(rtracklayer)
 library(tidyverse)
